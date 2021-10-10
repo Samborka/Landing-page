@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-logo{
+    text-align: center;
+    padding: 20px;
+    padding-left: 35px;
+    color: #d2872c;
+}
+.nav-buttons{
+    text-align: center;
+    margin-right: 225px;
+    padding: 30px;
+}
+.nav-buttons a{
+    text-decoration: none;
+    padding: 10px;
+    color: #48494c;
+    font-size: 20px;
+}
+.titulo-site{
+    margin-top: 80px;
+    margin-left: 200px;
+    padding: 30px;
+    
+}
+.descricao-titulo{
+    padding: 20px;
+    position: relative;
+    z-index: 1000;
+    background: none;
+}
+.descricao-titulo h1{
+    font-size: 80px;
+    color: #766f68;
+    background: none;
+}
+.descricao-titulo p{
+    font-size: 32px;
+    color: #817a74;
+    background: none;
+}
+.descricao-titulo button{
+    background: #d2872c;
+    padding: 15px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 32px;
+    color: white;
+}
+#imagem-time{
+    z-index: 0;
+    position: relative;
+    left: 438px;
+    bottom: 370px;
+    background: none;
+    width: 900px;
+}
+#imagem-time img{
+    width: 900px;
+    height: 546px;
+}
